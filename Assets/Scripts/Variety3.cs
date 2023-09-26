@@ -12,9 +12,8 @@ public class Variety3 : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other) 
     {
-        if (other.gameObject.tag == "dontforgettoupdatethetag")
+        if (other.gameObject.tag == "Enemy")
         {
-            print("got me");
             Destroy(other.gameObject);
             transform.localScale += new Vector3 (.5f,.5f,0);
         }    

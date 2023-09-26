@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawn : MonoBehaviour
 {
     [SerializeField] Transform[] a;
-    [SerializeField] GameObject s;
+    [SerializeField] GameObject spawner;
     
     // Start is called before the first frame update
     void Start()
